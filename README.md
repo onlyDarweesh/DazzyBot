@@ -159,7 +159,7 @@ If you need help or have questions:
 ## Author
 
 - **Owner**: .onlydarwesh
-- **Repository**: https://github.com/onlydarwesh/dazzybot
+- **Repository**: https://github.com/onlydarweesh/dazzybot
 
 ---
 
