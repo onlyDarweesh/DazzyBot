@@ -1,0 +1,54 @@
+{
+  "name": "dazzybot",
+  "version": "1.0.0",
+  "description": "DazzyBot - A feature-rich Discord bot with moderation, music, and utility commands",
+  "main": "dist/index.js",
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "dotenv": "^16.3.1",
+    "@discordjs/rest": "^2.2.0",
+    "ffmpeg-static": "^5.2.0",
+    "ytdl-core": "^4.11.0",
+    "axios": "^1.6.0",
+    "sqlite3": "^5.1.6",
+    "sqlite": "^5.1.1",
+    "moment": "^2.29.4",
+    "winston": "^3.11.0",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.1.0",
+    "eslint": "^8.52.0",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0"
+  },
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "lint": "eslint \"src/**/*.ts\"",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "nodejs",
+    "typescript",
+    "moderation",
+    "music",
+    "utility"
+  ],
+  "license": "MIT",
+  "author": ".onlydarwesh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onlydarwesh/dazzybot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onlydarwesh/discord-bot/issues"
+  },
+  "homepage": "https://github.com/onlydarwesh/discord-bot#readme"
+}
